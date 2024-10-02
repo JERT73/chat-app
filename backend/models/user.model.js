@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: "",
     }
-});
+}, {timestamps: true});
 
 // name of collection should be singular with first letter uppercased
 const User = mongoose.model("User", userSchema);
