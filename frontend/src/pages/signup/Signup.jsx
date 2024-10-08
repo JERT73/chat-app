@@ -114,8 +114,11 @@ const Signup = () => {
                     <button className='
                         btn btn-block btn-sm mt-2 hover:bg-blue-200
                         hover:text-gray-700
-                    '>
-                        Signup
+                    ' disabled={loading}>
+                        {loading? 
+                            <span className="loading loading-spinner"></span>:
+                            "Sign up"    
+                        }
                     </button>
                 </div>
             </form>
