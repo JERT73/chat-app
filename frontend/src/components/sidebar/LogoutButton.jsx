@@ -7,7 +7,7 @@ const LogoutButton = () => {
 
   return (
     <div className='
-        mt-auto
+        mt-auto pt-2
     '>
       {!loading ? (
         <BiLogOut className="w-6 h-6 text-blue-200 cursor-pointer"
