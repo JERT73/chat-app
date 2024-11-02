@@ -33,11 +33,11 @@ const Conversation = ({conversation, lastIdx}) => {
                     '>
                         {conversation.fullname}
                     </p>
-                    <span className='
+                    {/* <span className='
                         text-xl
                     '>
                         😃
-                    </span>
+                    </span> */}
                 </div>
             </div>
         </div>
